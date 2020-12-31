@@ -1,0 +1,113 @@
+---
+title: "CODE BOOK "
+author: "Kouddous"
+date: "31/12/2020"
+output: html_document
+---
+# tidy_data_Means code Book
+
+##1.subject             30
+        subjects who performing activities of daily living (ADL) while carrying a waist-mounted smartphone          with embedded inertial sensors
+##2.Activities          6
+        activities of daily living (ADL)
+ 1            WALKING
+ 2   WALKING_UPSTAIRS
+ 3 WALKING_DOWNSTAIRS
+ 4            SITTING
+ 5           STANDING
+ 6             LAYING
+
+
+All measurements are floating-point values, normalised and bounded within [-1,1].
+
+Prior to normalisation, acceleration measurements (variables containing Accelerometer) were made in g's (9.81 m.s⁻²) and gyroscope measurements (variables containing Gyroscope) were made in radians per second (rad.s⁻¹).
+
+Magnitudes of three-dimensional signals (variables containing Magnitude) were calculated using the Euclidean norm.
+
+The measurements are classified in two domains:
+
+Time-domain signals (variables prefixed by timeDomain), resulting from the capture of accelerometer and gyroscope raw signals.
+
+Frequency-domain signals (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
+##The measurements are classified in two domains:
+
+Time-domain signals (variables prefixed by timeDomain), resulting from the capture of accelerometer and gyroscope raw signals.
+
+Frequency-domain signals (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
+
+###Average frequency-domain body accelerometer in the X, Y and Z directions:  26
+ [1] "frequencyBodyaccelerometerJerkmagnitudemean"             
+ [2] "frequencyBodyaccelerometerJerkmagnitudeStandardDeviation"
+ [3] "frequencyBodyaccelerometerJerkmeanX"                     
+ [4] "frequencyBodyaccelerometerJerkmeanY"                     
+ [5] "frequencyBodyaccelerometerJerkmeanZ"                     
+ [6] "frequencyBodyaccelerometerJerkStandardDeviationX"        
+ [7] "frequencyBodyaccelerometerJerkStandardDeviationY"        
+ [8] "frequencyBodyaccelerometerJerkStandardDeviationZ"        
+ [9] "frequencyBodyaccelerometermagnitudemean"                 
+[10] "frequencyBodyaccelerometermagnitudeStandardDeviation"    
+[11] "frequencyBodyaccelerometermeanX"                         
+[12] "frequencyBodyaccelerometermeanY"                         
+[13] "frequencyBodyaccelerometermeanZ"                         
+[14] "frequencyBodyaccelerometerStandardDeviationX"            
+[15] "frequencyBodyaccelerometerStandardDeviationY"            
+[16] "frequencyBodyaccelerometerStandardDeviationZ"  
+
+##Average frequency-domain body gyroscope in the X, Y and Z directions: 9
+[17] "frequencyBodygyroscopeJerkmagnitudemean"                 
+[18] "frequencyBodygyroscopeJerkmagnitudeStandardDeviation"    
+[19] "frequencyBodygyroscopemagnitudemean"                     
+[20] "frequencyBodygyroscopemagnitudeStandardDeviation"        
+[21] "frequencyBodygyroscopemeanX"                             
+[22] "frequencyBodygyroscopemeanY"                             
+[23] "frequencyBodygyroscopemeanZ"                             
+[24] "frequencyBodygyroscopeStandardDeviationX"                
+[25] "frequencyBodygyroscopeStandardDeviationY"                
+[26] "frequencyBodygyroscopeStandardDeviationZ"   
+
+##Average time-domain body accelerometer in the X, Y and Z directions: 16
+[27] "timeBodyaccelerometerJerkmagnitudemean"                  
+[28] "timeBodyaccelerometerJerkmagnitudeStandardDeviation"     
+[29] "timeBodyaccelerometerJerkmeanX"                          
+[30] "timeBodyaccelerometerJerkmeanY"                          
+[31] "timeBodyaccelerometerJerkmeanZ"                          
+[32] "timeBodyaccelerometerJerkStandardDeviationX"             
+[33] "timeBodyaccelerometerJerkStandardDeviationY"             
+[34] "timeBodyaccelerometerJerkStandardDeviationZ"             
+[35] "timeBodyaccelerometermagnitudemean"                      
+[36] "timeBodyaccelerometermagnitudeStandardDeviation"         
+[37] "timeBodyaccelerometermeanX"                              
+[38] "timeBodyaccelerometermeanY"                              
+[39] "timeBodyaccelerometermeanZ"                              
+[40] "timeBodyaccelerometerStandardDeviationX"                 
+[41] "timeBodyaccelerometerStandardDeviationY"                 
+[42] "timeBodyaccelerometerStandardDeviationZ" 
+
+##Average time-domain body gyroscope in the X, Y and Z directions: 16
+[43] "timeBodygyroscopeJerkmagnitudemean"                      
+[44] "timeBodygyroscopeJerkmagnitudeStandardDeviation"         
+[45] "timeBodygyroscopeJerkmeanX"                              
+[46] "timeBodygyroscopeJerkmeanY"                              
+[47] "timeBodygyroscopeJerkmeanZ"                              
+[48] "timeBodygyroscopeJerkStandardDeviationX"                 
+[49] "timeBodygyroscopeJerkStandardDeviationY"                 
+[50] "timeBodygyroscopeJerkStandardDeviationZ"                 
+[51] "timeBodygyroscopemagnitudemean"                          
+[52] "timeBodygyroscopemagnitudeStandardDeviation"             
+[53] "timeBodygyroscopemeanX"                                  
+[54] "timeBodygyroscopemeanY"                                  
+[55] "timeBodygyroscopemeanZ"                                  
+[56] "timeBodygyroscopeStandardDeviationX"                     
+[57] "timeBodygyroscopeStandardDeviationY"                     
+[58] "timeBodygyroscopeStandardDeviationZ"    
+
+##Average time-domain gravity accelerometer in the X, Y and Z directions: 8
+[59] "timeGravityaccelerometermagnitudemean"                   
+[60] "timeGravityaccelerometermagnitudeStandardDeviation"      
+[61] "timeGravityaccelerometermeanX"                           
+[62] "timeGravityaccelerometermeanY"                           
+[63] "timeGravityaccelerometermeanZ"                           
+[64] "timeGravityaccelerometerStandardDeviationX"              
+[65] "timeGravityaccelerometerStandardDeviationY"              
+[66] "timeGravityaccelerometerStandardDeviationZ"
+        
